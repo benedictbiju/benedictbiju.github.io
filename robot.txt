@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://benedictbiju.github.io/BENEDICT-S-DAILY-BLOG/sitemap.xml
