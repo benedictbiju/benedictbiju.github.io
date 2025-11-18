@@ -1,0 +1,149 @@
+/* -------- BASIC RESET -------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+    color: #222;
+}
+
+/* -------- HEADER -------- */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+header h1 {
+    font-size: 42px;
+    font-weight: 800;
+    color: #1a73e8;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+/* -------- NAVIGATION -------- */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 18px;
+    background: #ffffff;
+    border-bottom: 1px solid #ececec;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #1a1a1a;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #1a73e8;
+}
+
+/* -------- HERO -------- */
+.hero {
+    text-align: center;
+    padding: 50px 25px;
+    background: linear-gradient(to right, #e3f2fd, #fce8ff);
+    border-radius: 0 0 30px 30px;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #444;
+}
+
+/* -------- BLOG SECTION -------- */
+.blogs {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.blogs h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.blog-card {
+    display: flex;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+    transition: 0.25s;
+}
+
+.blog-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.blog-card img {
+    width: 40%;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 20px;
+    width: 60%;
+}
+
+.blog-content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.blog-content p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.read-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 16px;
+    background: #1a73e8;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: 0.25s;
+}
+
+.read-btn:hover {
+    background: #155fc4;
+}
+
+/* -------- FOOTER -------- */
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    background: #ffffff;
+    border-top: 1px solid #eaeaea;
+    font-size: 15px;
+    color: #666;
+}
