@@ -1,0 +1,2 @@
+# BENEDICT-S-DAILY-BLOG
+blog repo
